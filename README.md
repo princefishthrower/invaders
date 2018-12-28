@@ -1,5 +1,7 @@
 # Invasion of the Invaders!
 
+This is the repository for the site at https://chrisfrew.in/invaders It uses react and p5js to render all 32,767 instances of a 15 x 15 'Invader'.
+
 ## What's an Invader?
 An 'Invader' is a 15 x 15 group of blocks representing a retro-style alien invader, likely inspired from 1978 the NES game Space Invaders.
 
