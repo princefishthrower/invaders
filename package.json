@@ -24,6 +24,7 @@
   "dependencies": {
     "chrisfrew-dot-in-productions-label": "^1.0.0",
     "express": "^4.16.4",
+    "morgan": "^1.9.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "^2.1.1"
