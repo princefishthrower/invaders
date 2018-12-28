@@ -4,7 +4,6 @@ import P5Wrapper from '../P5Wrapper'
 
 import ChrisfrewinProductionsLabel from 'chrisfrew-dot-in-productions-label'
 
-
 // data
 import oJSONDataRank1 from '../../data/data_rank_1';
 import oJSONDataRank2 from '../../data/data_rank_2';
@@ -51,11 +50,11 @@ export default class App extends Component {
               <img className="sampleInvaders" src={sampleInvaders}/>
               <h3><i>What's an Invader?</i></h3>
               <p>An 'Invader' is a 15 x 15 group of blocks representing a retro-style alien invader, likely inspired from <a target="_blank" href="https://en.wikipedia.org/wiki/Space_Invaders">1978 the NES game Space Invaders.</a></p>
-              <p>More specifically, an Invader is an array of 15 independently actived or deactived blocks, arranged in any order, which is then partially reflected along the y axis, like so (1 reflecting to 1', 6 reflecting to 6', and so on):</p> 
+              <p>More specifically, an Invader is an array of 15 independently activated or deactivated blocks, arranged in any order, which is then partially reflected along the y axis, like so (1 reflecting to 1', 6 reflecting to 6', and so on):</p> 
               <img className="schematic" src={schematic}/>
-              <p>There are 2<sup>15</sup>-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks unactived would be an empty 15 x 15 block. (Controversly, an Invader with all 15 blocks activated is a sold 15 x 15 block.)</p>
-              <p>Invaders can be further seperated by 'rank' - the number of blocks out of the original 15 that have been activated for a given Invader. I've rendered all possible combinations of these Invaders and grouped them by rank.</p>
-              <p>(View the <a target="_blank" href="https://chrisfrew.in">technical blog post with backend and frontend source codes here.</a>)</p>
+              <p>There are 2<sup>15</sup>-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks unactived would be an empty 15 x 15 block. (Oppositely, an Invader with all 15 blocks activated is a sold 15 x 15 block.)</p>
+              <p>Invaders can be further separated by 'rank' - the number of blocks out of the original 15 that have been activated for a given Invader. I've rendered all possible combinations of these Invaders and grouped them by rank.</p>
+              <p>(View the <a target="_blank" href="https://chrisfrew.in/data-challenge-rendering-all-32767-invaders">technical blog post with backend and frontend source codes here.</a>)</p>
               <p>Enjoy the wonderous shapes and forms these Invaders produce!</p>
               {aElements}
               <p>Originally inspired by <a target="_blank" href="https://www.skillshare.com/projects/Experimenting-with-Processing-and-HYPE/18021?via=user-profile">Jerome Herr's work on Skillshare from 2013</a>.</p>
