@@ -5,7 +5,7 @@ An 'Invader' is a 15 x 15 group of blocks representing a retro-style alien invad
 
 More specifically, an Invader is an array of 15 independently activated or deactivated blocks, arranged in any order, which is then partially reflected along the y axis, like so (1 reflecting to 1', 6 reflecting to 6', and so on):
 
-!(Invader schematic)[https://github.com/frewinchristopher/invaders/blob/master/src/images/schematic.svg]
+![Invader schematic](https://github.com/frewinchristopher/invaders/blob/master/src/images/schematic.svg)
 
 There are 215-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks unactivated would be an empty 15 x 15 block. (Oppositely, an Invader with all 15 blocks activated is a sold 15 x 15 block.)
 
