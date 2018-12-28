@@ -1,5 +1,47 @@
 body {
-  font-family: sans-serif;
+  font-family: courier new;
   margin: 0;
   padding: 0;
+  background: black;
+  color: white;
+}
+a {
+  color: #808080;
+  font-weight: bold;
+}
+a:visited {
+  color: #696969;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+.container {
+  max-width: 690px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sampleInvaders {
+  max-height: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.schematic {
+  max-width: 99%;
+  min-width: 225px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* phones and tablets */
+@media all and (max-width: 690px) { 
+  h1,h2,h3,p {
+    padding: 1rem;
+  }
+  .container {
+    max-width: 100%;
+  }
 }

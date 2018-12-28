@@ -1,7 +1,7 @@
 {
-  "name": "react-p5js",
-  "version": "0.3.0",
-  "description": "Using React with p5.js",
+  "name": "invaders",
+  "version": "1.0.0",
+  "description": "Rendering all 32,767 Invaders with p5js",
   "keywords": [
     "react",
     "reactjs",
@@ -13,15 +13,16 @@
   "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atorov/react-p5js.git"
+    "url": "https://github.com/frewinchristopher/invaders.git"
   },
   "bugs": {
-    "url": "https://github.com/atorov/react-p5js/issues"
+    "url": "https://github.com/frewinchristopher/invaders/issues"
   },
-  "author": "atorov",
+  "author": "frewinchristopher",
   "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
+    "chrisfrew-dot-in-productions-label": "^1.0.0",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "^2.1.1"
