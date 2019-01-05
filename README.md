@@ -1,15 +1,15 @@
 # Invasion of the Invaders!
 
-This is the repository for the site at https://chrisfrew.in/invaders It uses react and p5js to render all 32,767 instances of a 15 x 15 'Invader'.
+This is the repository for the site at https://chrisfrew.in/invaders It uses react and p5js to render all 32,767 instances of a 30 x 30 block 'Invader'.
 
 ## What's an Invader?
-An 'Invader' is a 15 x 15 group of blocks representing a retro-style alien invader, likely inspired from 1978 the NES game Space Invaders.
+An 'Invader' is a 30 x 30 group of blocks representing a retro-style alien invader, likely inspired from 1978 the NES game Space Invaders.
 
 More specifically, an Invader is an array of 15 independently activated or deactivated blocks, arranged in any order, which is then partially reflected along the y axis, like so (1 reflecting to 1', 6 reflecting to 6', and so on):
 
 ![Invader schematic](https://github.com/frewinchristopher/invaders/blob/master/src/images/schematic.svg)
 
-There are 215-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks deactivated would be an empty 15 x 15 block. (Oppositely, an Invader with all 15 blocks activated is a sold 15 x 15 block.)
+There are 215-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks deactivated would be an empty 30 x 30 block. (Oppositely, an Invader with all 15 blocks activated is a sold 30 x 30 block.)
 
 Invaders can be further separated by 'rank' - the number of blocks out of the original 15 that have been activated for a given Invader. I've rendered all possible combinations of these Invaders and grouped them by rank.
 
