@@ -9,7 +9,7 @@ More specifically, an Invader is an array of 15 independently activated or deact
 
 ![Invader schematic](https://github.com/frewinchristopher/invaders/blob/master/src/images/schematic.svg)
 
-There are 215-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks unactivated would be an empty 15 x 15 block. (Oppositely, an Invader with all 15 blocks activated is a sold 15 x 15 block.)
+There are 215-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks deactivated would be an empty 15 x 15 block. (Oppositely, an Invader with all 15 blocks activated is a sold 15 x 15 block.)
 
 Invaders can be further separated by 'rank' - the number of blocks out of the original 15 that have been activated for a given Invader. I've rendered all possible combinations of these Invaders and grouped them by rank.
 
