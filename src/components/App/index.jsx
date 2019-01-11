@@ -49,10 +49,10 @@ export default class App extends Component {
               <h1>Invasion of the Invaders!</h1>
               <img className="sampleInvaders" src={sampleInvaders}/>
               <h2><i>What's an Invader?</i></h2>
-              <p>An 'Invader' is a 15 x 15 group of blocks representing a retro-style alien invader, likely inspired from <a target="_blank" href="https://en.wikipedia.org/wiki/Space_Invaders">1978 the NES game Space Invaders.</a></p>
+              <p>An 'Invader' is a 30 x 30 group of blocks representing a retro-style alien invader, likely inspired from <a target="_blank" href="https://en.wikipedia.org/wiki/Space_Invaders">1978 the NES game Space Invaders.</a></p>
               <p>More specifically, an Invader is an array of 15 independently activated or deactivated blocks, arranged in any order, which is then partially reflected along the y axis, like so (1 reflecting to 1', 6 reflecting to 6', and so on):</p> 
               <img className="schematic" src={schematic}/>
-              <p>There are 2<sup>15</sup>-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks unactived would be an empty 15 x 15 block. (Oppositely, an Invader with all 15 blocks activated is a sold 15 x 15 block.)</p>
+              <p>There are 2<sup>15</sup>-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. One must be subtracted from 32,768, since the Invader with all 15 blocks unactived would be an empty 30 x 30 block. (Oppositely, an Invader with all 15 blocks activated is a sold 30 x 30 block.)</p>
               <p>Invaders can be further separated by 'rank' - the number of blocks out of the original 15 that have been activated for a given Invader. I've rendered all possible combinations of these Invaders and grouped them by rank.</p>
               <p>View the <a target="_blank" href="https://chrisfrew.in/data-challenge-rendering-all-32767-invaders">technical blog post with backend and frontend source codes here.</a></p>
               <p>Enjoy the amazing shapes and forms these Invaders produce!</p>
