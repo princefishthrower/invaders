@@ -1,5 +1,6 @@
 {
   "name": "invaders",
+  "homepage": "https://princefishthrower.github.io/invaders",
   "version": "1.0.0",
   "description": "Rendering all 32,767 Invaders with p5js",
   "keywords": [
@@ -10,15 +11,14 @@
     "p5.js",
     "processing"
   ],
-  "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frewinchristopher/invaders.git"
+    "url": "https://github.com/princefishthrower/invaders.git"
   },
   "bugs": {
-    "url": "https://github.com/frewinchristopher/invaders/issues"
+    "url": "https://github.com/princefishthrower/invaders/issues"
   },
-  "author": "frewinchristopher",
+  "author": "princefishthrower",
   "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
@@ -33,7 +33,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
