@@ -1,22 +1,15 @@
 {
-  "files": {
-    "main.css": "/invaders/static/css/main.410f3daa.chunk.css",
-    "main.js": "/invaders/static/js/main.f8d5be0e.chunk.js",
-    "main.js.map": "/invaders/static/js/main.f8d5be0e.chunk.js.map",
-    "runtime-main.js": "/invaders/static/js/runtime-main.838ca063.js",
-    "runtime-main.js.map": "/invaders/static/js/runtime-main.838ca063.js.map",
-    "static/js/2.995e64b0.chunk.js": "/invaders/static/js/2.995e64b0.chunk.js",
-    "static/js/2.995e64b0.chunk.js.map": "/invaders/static/js/2.995e64b0.chunk.js.map",
-    "index.html": "/invaders/index.html",
-    "static/css/main.410f3daa.chunk.css.map": "/invaders/static/css/main.410f3daa.chunk.css.map",
-    "static/js/2.995e64b0.chunk.js.LICENSE.txt": "/invaders/static/js/2.995e64b0.chunk.js.LICENSE.txt",
-    "static/media/sample_invaders.svg": "/invaders/static/media/sample_invaders.16656801.svg",
-    "static/media/schematic.svg": "/invaders/static/media/schematic.6da5881c.svg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.838ca063.js",
-    "static/js/2.995e64b0.chunk.js",
-    "static/css/main.410f3daa.chunk.css",
-    "static/js/main.f8d5be0e.chunk.js"
-  ]
+  "main.css": "/invaders/static/css/main.b558e987.chunk.css",
+  "main.js": "/invaders/static/js/main.57eaaa74.chunk.js",
+  "main.js.map": "/invaders/static/js/main.57eaaa74.chunk.js.map",
+  "runtime~main.js": "/invaders/static/js/runtime~main.26fdbcf1.js",
+  "runtime~main.js.map": "/invaders/static/js/runtime~main.26fdbcf1.js.map",
+  "static/js/2.2c99a8cf.chunk.js": "/invaders/static/js/2.2c99a8cf.chunk.js",
+  "static/js/2.2c99a8cf.chunk.js.map": "/invaders/static/js/2.2c99a8cf.chunk.js.map",
+  "index.html": "/invaders/index.html",
+  "precache-manifest.94fd21e8b49f61d93059a47ff5d57dc7.js": "/invaders/precache-manifest.94fd21e8b49f61d93059a47ff5d57dc7.js",
+  "service-worker.js": "/invaders/service-worker.js",
+  "static/css/main.b558e987.chunk.css.map": "/invaders/static/css/main.b558e987.chunk.css.map",
+  "static/media/sample_invaders.svg": "/invaders/static/media/sample_invaders.a0ac3978.svg",
+  "static/media/schematic.svg": "/invaders/static/media/schematic.897bb352.svg"
 }
