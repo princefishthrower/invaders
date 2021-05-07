@@ -22,9 +22,10 @@
   "license": "MIT",
   "main": "src/index.js",
   "dependencies": {
-    "chrisfrew-dot-in-productions-label": "^1.0.0",
     "express": "^4.16.4",
+    "gh-pages": "^3.1.0",
     "morgan": "^1.9.1",
+    "node-sass": "^4.14.1",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "^2.1.1"

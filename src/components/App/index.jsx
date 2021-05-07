@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import P5Wrapper from '../P5Wrapper'
 
-import ChrisfrewinProductionsLabel from 'chrisfrew-dot-in-productions-label'
+import { FullStackCraftProductionLabel } from '../FullStackCraftProductionLabel'
 
 // data
 import oJSONDataRank1 from '../../data/data_rank_1';
@@ -45,7 +45,7 @@ export default class App extends Component {
           );
         }
         return (
-          <div className="container">
+          <div className="container" style={{marginBottom: '1rem'}}>
               <h1>Invasion of the Invaders!</h1>
               <img className="sampleInvaders" src={sampleInvaders}/>
               <h2><i>What's an Invader?</i></h2>
@@ -61,7 +61,7 @@ export default class App extends Component {
               <p>Originally inspired by <a target="_blank" href="https://www.skillshare.com/projects/Experimenting-with-Processing-and-HYPE/18021?via=user-profile">Jerome Herr's work on Skillshare from 2013</a>.</p>
               <p>Jerome Herr was inspired (as was I, subsequently) by <a target="_blank" href="http://www.complexification.net/gallery/machines/invaderfractal/">Jared Tarbell's work from 2003</a>. I used Jerome's Processing Java code for a starting point, then converting it to p5.js and fixed invader values (as apposed to random generation) <a href="https://pastebin.com/umz39Yus">can be found here</a>.</p>
               <p>Jared was the real computational hero and <a href="http://www.complexification.net/gallery/machines/invaderfractal/flash/invaderFractall.html">provided an interactive flash applet for the fractal art</a> (clicking on any Invader subsequently renders a new Invader in-place, check it out! I'm also working on retreiving the .fla source code to a modern language or tool... but it's harder than you'd think!)</p>
-              <ChrisfrewinProductionsLabel/>
+              <FullStackCraftProductionLabel/>
           </div>
         )
     }
