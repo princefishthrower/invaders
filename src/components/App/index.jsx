@@ -47,20 +47,20 @@ export default class App extends Component {
         return (
           <div className="container" style={{marginBottom: '1rem'}}>
               <h1>Invasion of the Invaders!</h1>
-              <img className="sampleInvaders" src={sampleInvaders}/>
+              <img alt="Sample Invaders." className="sampleInvaders" src={sampleInvaders}/>
               <h2><i>What's an Invader?</i></h2>
-              <p>An 'Invader' is a 5 x 5 group of blocks representing a retro-style alien invader, likely inspired from <a target="_blank" href="https://en.wikipedia.org/wiki/Space_Invaders">1978 the NES game Space Invaders.</a></p>
+              <p>An 'Invader' is a 5 x 5 group of blocks representing a retro-style alien invader, likely inspired from <a target="_blank" rel="noopener noreferrer"  href="https://en.wikipedia.org/wiki/Space_Invaders">1978 the NES game Space Invaders.</a></p>
               <p>More specifically, an Invader is an array of 15 independently activated or deactivated blocks, arranged in any order, which is then partially reflected along the y axis (1 reflecting to 1', 6 reflecting to 6', and so on) forming the complete 25 block, 5 x 5 group of blocks:</p> 
-              <img className="schematic" src={schematic}/>
+              <img alt="Invader schematic." className="schematic" src={schematic}/>
               <p>There are 2<sup>15</sup>-1 possible unique combinations of this configuration, or 32,768 - 1 = 32,767. We subtract 1 from 32,768, since the Invader with all 15 blocks unactivated would be an empty 5 x 5 group of blocks. (Oppositely, an Invader with all 15 blocks activated is a solid 5 x 5 group of blocks.)</p>
               <p>Invaders can be further separated by 'rank' - the number of blocks out of the original 15 that have been activated for a given Invader. I've rendered all possible combinations of these Invaders and grouped them by rank.</p>
-              <p>View the <a target="_blank" href="https://chrisfrew.in/data-challenge-rendering-all-32767-invaders">technical blog post with backend and frontend source codes here.</a></p>
+              <p>View the <a target="_blank" rel="noopener noreferrer" href="https://chrisfrew.in/data-challenge-rendering-all-32767-invaders">technical blog post with backend and frontend source codes here.</a></p>
               <p>Enjoy the amazing shapes and forms these Invaders produce!</p>
               {aElements}
               <h3>Sources and Inspiration</h3>
-              <p>Originally inspired by <a target="_blank" href="https://www.skillshare.com/projects/Experimenting-with-Processing-and-HYPE/18021?via=user-profile">Jerome Herr's work on Skillshare from 2013</a>.</p>
-              <p>Jerome Herr was inspired (as was I, subsequently) by <a target="_blank" href="http://www.complexification.net/gallery/machines/invaderfractal/">Jared Tarbell's work from 2003</a>. I used Jerome's Processing Java code for a starting point, then converting it to p5.js and fixed invader values (as apposed to random generation) <a href="https://pastebin.com/umz39Yus">can be found here</a>.</p>
-              <p>Jared was the real computational hero and <a href="http://www.complexification.net/gallery/machines/invaderfractal/flash/invaderFractall.html">provided an interactive flash applet for the fractal art</a> (clicking on any Invader subsequently renders a new Invader in-place, check it out! I'm also working on retreiving the .fla source code to a modern language or tool... but it's harder than you'd think!)</p>
+              <p>Originally inspired by <a target="_blank" rel="noopener noreferrer" href="https://www.skillshare.com/projects/Experimenting-with-Processing-and-HYPE/18021?via=user-profile">Jerome Herr's work on Skillshare from 2013</a>.</p>
+              <p>Jerome Herr was inspired (as was I, subsequently) by <a target="_blank" rel="noopener noreferrer" href="http://www.complexification.net/gallery/machines/invaderfractal/">Jared Tarbell's work from 2003</a>. I used Jerome's Processing Java code for a starting point, then converting it to p5.js and fixed invader values (as apposed to random generation) <a href="https://pastebin.com/umz39Yus">can be found here</a>.</p>
+              <p>Jared was the real computational hero and <a target="_blank" rel="noopener noreferrer" href="http://www.complexification.net/gallery/machines/invaderfractal/flash/invaderFractall.html">provided an interactive flash applet for the fractal art</a> (clicking on any Invader subsequently renders a new Invader in-place, check it out! I'm also working on retreiving the .fla source code to a modern language or tool... but it's harder than you'd think!)</p>
               <FullStackCraftProductionLabel/>
           </div>
         )
